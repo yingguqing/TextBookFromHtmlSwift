@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>http://www.xiangcunxiaoshuo.com</key>
+	<dict>
+		<key>小说源网址</key>
+		<string>http://www.xiangcunxiaoshuo.com</string>
+		<key>小说网站说明</key>
+		<string>乡村小说网</string>
+		<key>文章开始</key>
+		<string>&lt;div class=&quot;yd_text2&quot;&gt;</string>
+		<key>文章结束</key>
+		<string>&lt;/div&gt;</string>
+		<key>文章读取格式</key>
+		<integer>1586</integer>
+		<key>目录保留开始</key>
+		<string></string>
+		<key>目录正则表达式</key>
+		<string>&lt;dd&gt;&lt;a href=&quot;(.+?)&quot; title=&quot;(.+?)&quot;&gt;</string>
+		<key>目录读取格式</key>
+		<integer>1586</integer>
+	</dict>
+	<key>http://www.xxbiquge.com</key>
+	<dict>
+		<key>小说源网址</key>
+		<string>http://www.xxbiquge.com</string>
+		<key>小说网站说明</key>
+		<string>新笔趣阁</string>
+		<key>文章开始</key>
+		<string>&lt;div id=&quot;content&quot;&gt;</string>
+		<key>文章结束</key>
+		<string>&lt;/div&gt;</string>
+		<key>文章读取格式</key>
+		<integer>4</integer>
+		<key>目录保留开始</key>
+		<string></string>
+		<key>目录正则表达式</key>
+		<string>&lt;dd&gt;&lt;a href=&quot;(.+?)&quot;&gt;(.+?)(?=&lt;/a&gt;&lt;/dd&gt;)</string>
+		<key>目录读取格式</key>
+		<integer>4</integer>
+	</dict>
+</dict>
+</plist>
